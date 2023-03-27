@@ -18,10 +18,10 @@ public class animationXcontrol : MonoBehaviour
 
     public void Split()
     {
-        int i = 0;
+        //int i = 0;
         motor.GetComponent<Animator>().Play("split");
 
-        while(i<4)
+        /*while(i<4)
         {
 
             goList[i].SetActive(true);
@@ -30,7 +30,7 @@ public class animationXcontrol : MonoBehaviour
             {
                 i++;
             }
-        }
+        }*/
         
         start = GameObject.Find("start");
 
@@ -39,9 +39,9 @@ public class animationXcontrol : MonoBehaviour
     }
     public void Rotation()
     {
-        int i = 4;
+        //int i = 4;
         motor.GetComponent<Animator>().Play("rotation");
-        while(i<6)
+        /*while(i<6)
         {
             goList[i].SetActive(true);
             goList[i].GetComponent<AudioSource>().Play();
@@ -49,7 +49,7 @@ public class animationXcontrol : MonoBehaviour
             {
                 i++;
             }
-        }
+        }*/
 
         next.SetActive(false);
         next1.SetActive(true);

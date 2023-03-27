@@ -30,7 +30,9 @@ public class ARPlacementManager : MonoBehaviour
 
                 if (instantiatedObject == null)
                 {
+                    //_Object.SetActive(true);
                     instantiatedObject = Instantiate(_Object);
+
 
                     foreach (var plane in sessionOrigin.GetComponent<ARPlaneManager>().trackables)
                     {
