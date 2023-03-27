@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Motor.unity
     guid: 3a2e280cc2e31594b9d2aca35530aba7
+  - enabled: 1
+    path: Assets/_Project/Scenes/LL.unity
+    guid: 1c98c20bd49c0174e8e954e724393c8d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 10e8d1c4fc5608a4bbacbc1718ae1825,
       type: 2}
